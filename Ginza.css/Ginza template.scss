@@ -86,7 +86,7 @@
     &__Ginza--mobile {
       display: none;
       justify-content: space-between;
-      padding-top: 45px;
+      padding-top: 5%;
       width: 80%;
       margin: 0 auto;
     }
@@ -597,6 +597,15 @@
   #header {
     width: 296vw;
   }
+  .fa-twitter{
+    font-size: 50px !important;
+  }
+  .fa-facebook{
+    font-size: 50px !important;
+  }
+  .fa-instagram{
+    font-size: 50px !important;
+  }
   .container{
     height: 260vh !important;
   
@@ -837,7 +846,7 @@
   .footer__container--menu--Location{
     width: 60%;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-bottom: 25%;
     h3{
       font-size: 80px;
     }
