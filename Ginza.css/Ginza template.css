@@ -5,6 +5,11 @@
   text-decoration: none;
   list-style: none;
 }
+* img:hover {
+  transform: scale(0.8);
+  transition: linear 0.5s;
+  cursor: pointer;
+}
 
 #header {
   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ginza37pa0/HomeImg-m2WWR5EDrgTbbJjy.png");
@@ -121,6 +126,7 @@
   background-color: black;
   color: white;
   transition: linear 0.35s;
+  cursor: pointer;
 }
 #main .popular {
   background-color: #f9f9f9;

@@ -4,7 +4,13 @@
   outline: none;
   text-decoration: none;
   list-style: none;
+  img:hover{
+    transform: scale(.8);
+    transition: linear 0.5s;
+    cursor: pointer;
+  }
 }
+
 
 #header {
   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ginza37pa0/HomeImg-m2WWR5EDrgTbbJjy.png");
@@ -134,8 +140,10 @@
       width: 50%;
       img {
         width: 100%;
+      
+        }
       }
-    }
+    
 
     // .memories__container__word
 
@@ -165,6 +173,7 @@
           background-color: black;
           color: white;
           transition: linear 0.35s;
+          cursor: pointer;
         }
       }
     }
