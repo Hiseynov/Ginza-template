@@ -17,18 +17,20 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    
-    height: 180vh;
+
+    height: 130vh;
     justify-content: space-between;
 
     // .container__Ginza
 
     &__Ginza {
+      
       h3 {
         font-size: 40px;
+        
         font-weight: 400;
         color: white;
-        margin-top: 35px;
+        // margin-top: 35px;
       }
 
       ul {
@@ -56,7 +58,10 @@
     // .container__h3
 
     &__h3 {
+      width: 70%;
+      margin: 0 auto;
       h3 {
+        width: 63vw;
         font-size: 90px;
         color: white;
         font-weight: 400;
@@ -71,14 +76,13 @@
         display: flex;
         justify-content: center;
         column-gap: 40px;
-        i{
+        i {
           color: white;
           font-size: 20px;
         }
       }
     }
   }
-
 
   .container {
     // .container__Ginza--mobile
@@ -130,8 +134,6 @@
       width: 50%;
       img {
         width: 100%;
-    
-    
       }
     }
 
@@ -194,7 +196,7 @@
     &__container__menu {
       display: flex;
       column-gap: 205px;
-   
+
       img {
         width: 100%;
       }
@@ -370,8 +372,6 @@
     // .cook__container__img
 
     &__container__img {
-     
-
       img {
         width: 100%;
       }
@@ -595,33 +595,32 @@
     }
   }
   #header {
-    width: 296vw;
+    width: 296vw !important;
   }
-  .fa-twitter{
+  .fa-twitter {
     font-size: 50px !important;
   }
-  .fa-facebook{
+  .fa-facebook {
     font-size: 50px !important;
   }
-  .fa-instagram{
+  .fa-instagram {
     font-size: 50px !important;
   }
-  .container{
-    height: 260vh !important;
-  
-  &__h3{
-    h3{
-      width: 60%;
-    margin: 0 auto;
-    padding: 10% 0;
+  .container {
+    height: 170vh !important;
+
+    &__h3 {
+      h3 {
+        width: 60% !important;
+        margin: 0 auto;
+       
+      }
+      &__icons {
+        i {
+          font-size: 50px !important;
+        }
+      }
     }
-   &__icons{
-    i{
-      font-size: 50px !important;
-    }
-   }
-      
-   } 
   }
   .memories__container {
     display: flex;
@@ -803,56 +802,55 @@
       font-size: 80px;
     }
   }
-  .footer__container--Ginza--icon{
+  .footer__container--Ginza--icon {
     margin-bottom: 10%;
-    i{
+    i {
       font-size: 60px;
-    width: 35vw;
+      width: 35vw;
     }
   }
-  .footer__container--menu--Links{
+  .footer__container--menu--Links {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 10%;
-    h3{
+    h3 {
       font-size: 80px;
     }
-    a{
+    a {
       font-size: 50px;
     }
   }
-  .footer__container--menu--Contact{
+  .footer__container--menu--Contact {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 10%;
-    h3{
+    h3 {
       font-size: 80px;
     }
-    p{
+    p {
       font-size: 50px;
     }
   }
-  .footer__container--menu--Hourse{
+  .footer__container--menu--Hourse {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 10%;
-    h3{
+    h3 {
       font-size: 80px;
     }
-    p{
+    p {
       font-size: 50px;
     }
   }
-  .footer__container--menu--Location{
+  .footer__container--menu--Location {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 25%;
-    h3{
+    h3 {
       font-size: 80px;
     }
-    p{
+    p {
       font-size: 50px;
     }
   }
-
 }

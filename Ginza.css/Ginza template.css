@@ -17,14 +17,13 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 180vh;
+  height: 130vh;
   justify-content: space-between;
 }
 #header .container__Ginza h3 {
   font-size: 40px;
   font-weight: 400;
   color: white;
-  margin-top: 35px;
 }
 #header .container__Ginza ul {
   display: flex;
@@ -44,7 +43,12 @@
 #header .container__Ginza .Home {
   text-decoration: underline;
 }
+#header .container__h3 {
+  width: 70%;
+  margin: 0 auto;
+}
 #header .container__h3 h3 {
+  width: 63vw;
   font-size: 90px;
   color: white;
   font-weight: 400;
@@ -409,7 +413,7 @@
     font-weight: 200 !important;
   }
   #header {
-    width: 296vw;
+    width: 296vw !important;
   }
   .fa-twitter {
     font-size: 50px !important;
@@ -421,12 +425,11 @@
     font-size: 50px !important;
   }
   .container {
-    height: 260vh !important;
+    height: 170vh !important;
   }
   .container__h3 h3 {
-    width: 60%;
+    width: 60% !important;
     margin: 0 auto;
-    padding: 10% 0;
   }
   .container__h3__icons i {
     font-size: 50px !important;
