@@ -7,7 +7,7 @@
 }
 * img:hover {
   transform: scale(0.8);
-  transition: linear 0.5s;
+  transition: linear 0.9s;
   cursor: pointer;
 }
 
@@ -49,7 +49,7 @@
   text-decoration: underline;
 }
 #header .container__h3 {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 #header .container__h3 h3 {
